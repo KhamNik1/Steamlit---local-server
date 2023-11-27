@@ -13,7 +13,7 @@ def detect_objects(model, image):
 
 # Функция для загрузки модели YOLO
 def load_model():
-    model = YOLO("C:\\Users\\Nikita\\Desktop\\[]\\job\\RUNы\\DS1.7 yolon-100\\runs\\segment\\train\\weights\\last.pt")
+    model = YOLO("C:\\Users\\Desktop\\[]\\job\\RUNы\\DS1.7 yolon-100\\runs\\segment\\train\\weights\\last.pt")
     return model
 
 
